@@ -1,0 +1,35 @@
+#app {
+    display: grid;
+    grid-template-columns: 51.25% 48.75%;    
+    height: 100vh;
+    overflow: hidden;
+}
+
+.brand {
+    display: flex;
+    margin: 1.2rem;
+
+    & img {
+        display: block;
+        border-radius: .7rem;
+    }
+}
+
+    .overlay-aside {
+        position: absolute;
+        margin: 2rem;
+         
+        & h1 {
+            font: var(--logo);
+            color: var(--pink);
+            margin-top: 1rem;
+        }
+
+        & p {
+            font: var(--body-md);
+            color: var(--text-heading);
+            -webkit-text-stroke: black; 
+        }
+    
+    }
+

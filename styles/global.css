@@ -7,14 +7,14 @@
 :root {
     /* Fonts */
 
-    --font-family-Leckerli-one: "Leckerli-One", "sans-serif";
+    --font-family-Leckerli-one: "Leckerli one", "sans-serif";
     --logo: 2.5rem/normal var(--font-family-Leckerli-one);
 
-    --font-family-ballon-2: "Ballo-2", 'sans-serif';
-    --heading-md: 1.7rem/normal var(--font-family-ballon-2);
-    --heading-sm: 1.1rem/normal var(--font-family-ballon-2);
+    --font-family-ballo-2: "Baloo 2", 'sans-serif';
+    --heading-md: 1.7rem/normal var(--font-family-ballo-2);
+    --heading-sm: 1.1rem/normal var(--font-family-ballo-2);
 
-    --font-family-open-sans: "Open-Sans", "sans-serif";
+    --font-family-open-sans: "Open Sans", "sans-serif";
     --body-md: 1rem/normal var(--font-family-open-sans);
     --body-sm: .8rem/normal var(--font-family-open-sans);
     --body-xs: .7rem/normal var(--font-family-open-sans);
@@ -57,5 +57,16 @@
 }
 
 body {
-    background-color: var(--shape-body);
+    background-color: var(--shape-background);
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.aside-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden; 
+} 
