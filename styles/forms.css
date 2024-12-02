@@ -1,0 +1,26 @@
+@import url(./fieldset/index.css);
+
+fieldset {
+    border: none;
+    display: grid;
+    gap: 1rem;
+}
+
+legend {
+    display: flex;
+    font: var(--heading-md);
+    font-size: 1rem;
+    color: var(--text-heading);
+    align-items: center;
+    gap: .75rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+label {
+    display: grid;
+    font: var(--body-md);
+    font-size: .8rem;
+    color: var(--text-body);
+    padding-bottom: .7rem;
+}
